@@ -5,6 +5,8 @@ import sys
 from matplotlib import pyplot as plt
 import torch
 import torch.nn as nn
+import matplotlib
+matplotlib.use('TkAgg')
 
 from rl.networks.envs import make_vec_envs
 from rl.evaluation import evaluate
